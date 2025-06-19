@@ -50,7 +50,7 @@ public class MainFrame extends JFrame implements ActionListener {
         mistyMountainsDirector = new OrkDirector(new MistyMountainsBuilderFactory(new MistyMountainsGearFactory()));
         greyMountainsDirector = new OrkDirector(new GreyMountainsBuilderFactory(new GreyMountainsGearFactory()));
         dolGuldurDirector = new OrkDirector(new DolGuldurBuilderFactory(new DolGuldurGearFactory()));
-        setTitle("Армия Мордора");
+        setTitle("Армия");
         setLayout(null);
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
