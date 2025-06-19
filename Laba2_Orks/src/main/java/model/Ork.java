@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package model;
 
 /**
@@ -36,4 +33,80 @@ public class Ork {
         this.tribe = tribe;
     }
     
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setWeapon(String weapon) {
+        this.weapon = weapon;
+    }
+
+    public void setArmor(String armor) {
+        this.armor = armor;
+    }
+
+    public void setStrength(int strength) {
+        this.strength = strength;
+    }
+
+    public void setBanner(String banner) {
+        this.banner = banner;
+    }
+
+    public void setAgility(int agility) {
+        this.agility = agility;
+    }
+
+    public void setIntelligence(int intelligence) {
+        this.intelligence = intelligence;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getWeapon() {
+        return weapon;
+    }
+
+    public String getArmor() {
+        return armor;
+    }
+
+    public String getBanner() {
+        return banner;
+    }
+
+    public int getStrength() {
+        return strength;
+    }
+
+    public int getAgility() {
+        return agility;
+    }
+
+    public int getIntelligence() {
+        return intelligence;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public String getTribe() {
+        return tribe;
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }
