@@ -5,7 +5,7 @@ package factories;
  *
  * @author elenagoncarova
  */
-public class GreyMountainsGearFactory {
+public class GreyMountainsGearFactory implements OrkGearFactory {
         public String createWeapon() {
         return "Шпаги";
     }

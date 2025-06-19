@@ -5,7 +5,7 @@ package factories;
  *
  * @author elenagoncarova
  */
-public class DolGuldurGearFactory {
+public class DolGuldurGearFactory implements OrkGearFactory {
     public String createWeapon() {
         return "Копья";
     }

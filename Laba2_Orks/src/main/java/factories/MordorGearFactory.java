@@ -5,7 +5,7 @@ package factories;
  *
  * @author elenagoncarova
  */
-public class MordorGearFactory {
+public class MordorGearFactory implements OrkGearFactory {
     public String createWeapon() {
         return "Тяжелый меч";
     }

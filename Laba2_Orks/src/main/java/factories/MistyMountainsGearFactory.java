@@ -5,7 +5,7 @@ package factories;
  *
  * @author elenagoncarova
  */
-public class MistyMountainsGearFactory {
+public class MistyMountainsGearFactory implements OrkGearFactory {
     public String createWeapon() {
         return "Топоры";
     }
