@@ -22,4 +22,17 @@ public class Ork {
     private String role;
     private String tribe;
     
+    public Ork(String name, String weapon, String armor, String banner,
+            int strength, int agility, int intelligence, int health, String role, String tribe) {
+        this.name = name;
+        this.weapon = weapon;
+        this.armor = armor;
+        this.banner = banner;
+        this.strength = strength;
+        this.agility = agility;
+        this.intelligence = intelligence;
+        this.health = health;
+        this.role = role;
+        this.tribe = tribe;
+    }
 }

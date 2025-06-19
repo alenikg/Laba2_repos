@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package factories;
 
 /**
@@ -9,5 +6,13 @@ package factories;
  * @author elenagoncarova
  */
 public class DolGuldurGearFactory {
-    
+    public String createWeapon() {
+        return "Копья";
+    }
+    public String createArmor() {
+        return "Кольчуги";
+    }
+    public String createBanner() {
+        return "Знамя с черепом";
+    }
 }

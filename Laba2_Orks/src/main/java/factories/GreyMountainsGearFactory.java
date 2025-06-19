@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package factories;
 
 /**
@@ -9,5 +6,13 @@ package factories;
  * @author elenagoncarova
  */
 public class GreyMountainsGearFactory {
-    
+        public String createWeapon() {
+        return "Шпаги";
+    }
+    public String createArmor() {
+        return "Брезентовая броня";
+    }
+    public String createBanner() {
+        return "Знамя с волком";
+    }
 }
