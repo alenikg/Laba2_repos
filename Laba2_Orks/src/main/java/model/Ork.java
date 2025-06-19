@@ -35,4 +35,5 @@ public class Ork {
         this.role = role;
         this.tribe = tribe;
     }
+    
 }

@@ -1,13 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package main;
+
+import com.github.javafaker.Faker;
+import factories.OrkBuilderFactory;
+import java.util.Locale;
 
 /**
  *
  * @author elenagoncarova
  */
 public class OrkDirector {
+    private OrkBuilderFactory builderFactory;
+    private Faker faker = new Faker(new Locale("ru-RU"));
+    
+    public OrkDirector(OrkBuilderFactory factory) {
+        this.builderFactory = factory;
+    }
+    
+    private String generateName() {
+        return faker.lordOfTheRings().character();
+    }
     
 }
